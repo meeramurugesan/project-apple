@@ -1,0 +1,226 @@
+.container-three {
+  /*width: 100%;*/
+  height: 100vh;
+  background-color: black;
+  display: flex;
+}
+
+.image-one{
+  width: 700px;
+  height: 450px;
+  background-image: url("../Assests/image/3rd\ page\ image2.png");
+  background-position: 50%;
+}
+.image-two {
+  width:700px;
+  height: 450px;
+  background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+  background-position: 50%;
+  
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.button{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  /*margin-right: 126px;*/
+ 
+}
+.button a{
+  width: 150px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px
+}
+.button a:hover{
+  background-color: black;
+  color: #fff;
+}
+@media all and (max-width: 1000px) {
+ 
+  .container-three {
+    flex-direction: column;
+  }
+  .image-one {
+    width: 695px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 50%;
+  }
+  .image-two {
+    width: 686px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 50%;
+  }
+  .button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+   
+  }
+  .button a{
+    width: 200px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 800px) {
+ 
+  .container-three {
+    flex-direction: column;
+  }
+  .image-one {
+    width: 718px;
+    height: 526px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 120%;
+  }
+  .image-two {
+    width: 718px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 51%;
+  }
+  .button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+   
+  }
+  .button a{
+    width: 140px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 600px) {
+ 
+  .container-three {
+    flex-direction: column;
+  }
+  .image-one {
+    width: 682px;
+    height: 437px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 375%;
+  }
+  .image-two {
+    width: 682px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 405%;
+  }
+ .button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    margin-right: 172px;
+    margin-bottom: 20px;
+   
+  }
+  .button a{
+    width: 146px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 9px;
+  }
+
+}
+
+
+@media all and (max-width: 400px) {
+ 
+  .container-three {
+    flex-direction: column;
+  }
+  .image-one {
+    width: 678px;
+    height: 437px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 975%;
+  }
+  .image-two {
+    width: 664px;
+    height: 475px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 548%;
+  }
+  .button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-right: 126px;
+   
+  }
+  .button a{
+    width: 113px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 13px;
+  }
+}
+
+
+
+
+  

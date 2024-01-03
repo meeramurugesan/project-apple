@@ -1,0 +1,309 @@
+.container-three {
+    width: 100%;
+    height: 50vh;    
+    background-color: black;
+    display: flex;
+  }
+  
+  .image-one {
+    width: 700px;
+    height: 295px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 50%;
+  }
+  .image-two {
+    width:700px;
+    height: 295px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 50%;
+    
+  }
+ /* html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }*/
+  @media all and (max-width: 1000px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 999px;
+      height: 500px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 50%;
+    }
+    .image-two {
+      width: 999px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 50%;
+    }
+  }
+  @media all and (max-width: 800px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 761px;
+      height: 536px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 300%;
+    }
+    .image-two {
+      width: 761px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 300%;
+    }
+  }
+  @media all and (max-width: 600px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 682px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 375%;
+    }
+    .image-two {
+      width: 682px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 405%;
+    }
+  }
+  
+  
+  @media all and (max-width: 400px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 678px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 975%;
+    }
+    .image-two {
+      width: 664px;
+      height: 475px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 548%;
+    }
+  }
+  
+  .container-three {
+    /*width: 100%;*/
+    height: 100vh;
+    background-color: black;
+    display: flex;
+  }
+  
+  .image-one {
+    width: 700px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 50%;
+  }
+  .image-two {
+    width:700px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 50%;
+    
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  @media all and (max-width: 1000px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 999px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 50%;
+    }
+    .image-two {
+      width: 999px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 50%;
+    }
+  }
+  @media all and (max-width: 800px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 761px;
+      height: 536px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 300%;
+    }
+    .image-two {
+      width: 761px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 300%;
+    }
+  }
+  @media all and (max-width: 600px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 682px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 375%;
+    }
+    .image-two {
+      width: 682px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 405%;
+    }
+  }
+  
+  
+  @media all and (max-width: 400px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 678px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 975%;
+    }
+    .image-two {
+      width: 664px;
+      height: 475px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 548%;
+    }
+  }
+  .container-three {
+    /*width: 100%;*/
+    height: 100vh;
+    background-color: black;
+    display: flex;
+  }
+  
+  .image-one {
+    width: 700px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image2.png");
+    background-position: 50%;
+  }
+  .image-two {
+    width:700px;
+    height: 450px;
+    background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+    background-position: 50%;
+    
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  @media all and (max-width: 1000px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 999px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 50%;
+    }
+    .image-two {
+      width: 999px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 50%;
+    }
+  }
+  @media all and (max-width: 800px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 761px;
+      height: 536px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 300%;
+    }
+    .image-two {
+      width: 761px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 300%;
+    }
+  }
+  @media all and (max-width: 600px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 682px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 375%;
+    }
+    .image-two {
+      width: 682px;
+      height: 450px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 405%;
+    }
+  }
+  
+  
+  @media all and (max-width: 400px) {
+   
+    .container-three {
+      flex-direction: column;
+    }
+    .image-one {
+      width: 678px;
+      height: 437px;
+      background-image: url("../Assests/image/3rd\ page\ image2.png");
+      background-position: 975%;
+    }
+    .image-two {
+      width: 664px;
+      height: 475px;
+      background-image: url("../Assests/image/3rd\ page\ image\ one.png");
+      background-position: 548%;
+    }
+  }
+  
+  

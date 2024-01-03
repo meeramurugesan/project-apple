@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter+Tight:wght@300&family=Inter:wght@700&family=Montserrat:wght@400;600&family=Noto+Serif+Display:ital,wght@0,400;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,600&family=Oswald&family=Playfair+Display:ital,wght@0,400;0,500;1,600;1,900&family=Raleway:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter+Tight:wght@300&family=Inter:wght@700&family=Montserrat:wght@600&family=Noto+Serif+Display:ital,wght@0,400;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,600&family=Oswald&family=Playfair+Display:ital,wght@0,400;0,500;1,600;1,900&family=Raleway:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter+Tight:wght@300&family=Inter:wght@700&family=Montserrat:wght@600&family=Noto+Serif+Display:ital,wght@1,400&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,600&family=Oswald&family=Playfair+Display:ital,wght@0,500;1,600;1,900&family=Raleway:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter+Tight:wght@300&family=Inter:wght@700&family=Montserrat:wght@600&family=Noto+Serif:wght@400;700&family=Oswald&family=Playfair+Display:ital,wght@0,500;1,600;1,900&family=Raleway:wght@200;300&display=swap");
+/* container-one*/
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Assests/image/pexels-charlotte-may-5947008\ 1.png"),url('../Assests/logo/curve\ one.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover;
+}
+
+.header-one {
+  padding-left: 65px;
+  padding-top: 34.93px;
+}
+.Hamburger-menu {
+  float: right;
+  padding-right: 65.47px;
+  padding-top: 20px;
+}
+.music-icon {
+  display: flex;
+  padding-left: 40%;
+}
+.music-img {
+  padding-top: 30px;
+  width: 64.24px;
+  height: 112.78px;
+}
+.inner-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20%;
+  /*color: white;*/
+}
+.head-six {
+  color: white;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.head-one {
+  color: white;
+  font-size: 80px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  line-height: 5px;
+  word-wrap: break-word;
+}
+.para-one {
+  color: white;
+  font-size: 12px;
+  font-family: Noto Serif;
+  font-weight: 200;
+  line-height: 10.7px;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.btn {
+  display: flex;
+  width: 177px;
+  height: 44px;
+  align-items: center;
+  border: 1px solid white;
+  margin-left: 45%;
+  margin-top: 75px;
+}
+a {
+  color: white;
+  font-size: 16px;
+  font-family: Noto Serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding-left: 48px;
+}
+.Bar-spoon {
+  width: 16px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  padding-top: 49.87px;
+}
+/* container-two*/
+.container-two {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Assests/image/pexels-charlotte-may-5947024\ copy\ 1.png"),
+    url("../Assests/logo/A\ \(Stroke\).png");
+  background-position: center top, 0%;
+  background-repeat: no-repeat;
+}
+.page-image1 {
+  width: 260px;
+  height: 390px;
+}
+.Second-para {
+  width: 856px;
+  height: 200px;
+  color: white;
+  font-size: 36px;
+  font-family: Noto Serif;
+  font-weight: 500;
+  line-height: 49.86px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+span {
+  color: white;
+  font-size: 36px;
+  font-family: Noto Serif;
+  font-weight: 500;
+  text-decoration: underline;
+  line-height: 49.86px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+b {
+  color: white;
+  font-size: 36px;
+  font-family: Noto Serif;
+  font-weight: 900;
+  line-height: 49.86px;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+.Third-para {
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+/* container-three*/
+.container-three {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+.image-one {
+  background-image: url("../Assests/image/pexels-cottonbro-studio-4667182\ 1.png");
+  width: 50%;
+  height: 67vh;
+  float: left;
+}
+.image-two {
+  background-image: url("../Assests/image/pexels-cottonbro-studio-4667182\ 4.png");
+  width: 50%;
+  height: 67vh;
+  float: right;
+}
+/* container-four*/
+.container-four {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  background-image: url("../Assests/logo/O\ \(Stroke\).png");
+  background-repeat: no-repeat;
+  background-position: right top -207px;
+}
+.head-2 {
+  color: #d16868;
+  font-size: 36px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  line-height: 84.2px;
+  word-wrap: break-word;
+}
+.head-3 {
+  color: white;
+  font-size: 17px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 33.6px;
+  word-wrap: break-word;
+}
+i {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 33.6px;
+  word-wrap: break-word;
+}
+.opening-hours {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+/* container-five*/
+.container-five {
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+  display: flex;
+  background-image: url("../Assests/logo/Vector\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center 90%;
+}
+
+.cocktail-menu {
+  width: 275px;
+  height: 43px;
+  padding-left: 10%;
+  margin-top: 10%;
+}
+.cocktails {
+  color: #d16868;
+  font-size: 30px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  line-height: 43.2px;
+  word-wrap: break-word;
+}
+.Menu {
+  color: #d16868;
+  font-size: 30px;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 43.2px;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.fifthpage-imagebox {
+  width: 544px;
+  height: 336px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+  flex-direction: column;
+  /*padding-right: 50%;*/
+  margin-right: 50%;
+}
+.Indulgent-harmony {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 21px;
+  word-wrap: break-word;
+  position: relative;
+  top: -200px;
+  padding-left: 10%;
+}
+.Symphony {
+  color: white;
+  font-size: 36px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  line-height: 50.4px;
+  letter-spacing: 0.84px;
+  word-wrap: break-word;
+  position: relative;
+  top: -240px;
+  padding-left: 25%;
+}
+.in-Gold {
+  color: white;
+  font-size: 32px;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 50.4px;
+  letter-spacing: 0.84px;
+  word-wrap: break-word;
+  position: relative;
+  top: -295px;
+  padding-left: 10%;
+}
+.fifthpage-content {
+  display: flex;
+  flex-direction: row;
+  width: 205px;
+  height: 90px;
+  position: relative;
+  top: -127%;
+  margin-left: 35em;
+}
+.fifthpage-para {
+  width: 201px;
+  height: 90px;
+  color: white;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+.Aged-bourbon {
+  color: white;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 18px;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.image-8 {
+  width: 194px;
+  height: 324px;
+  position: relative;
+  top: -350%;
+  margin-left: 190%;
+  align-items: flex-end;
+}
+.circle-arrow {
+  position: relative;
+  top: -540%;
+  margin-left: 25em;
+}
+.Enchanted {
+  color: white;
+  font-size: 30px;
+  font-family: Noto Serif;
+  font-weight: 700;
+  line-height: 50.4px;
+  letter-spacing: 0.84px;
+  word-wrap: break-word;
+  position: relative;
+  top: -50px;
+  margin-left: 60%;
+}
+.Elixir {
+  color: white;
+  font-size: 25px;
+  font-family: Noto Serif;
+  font-weight: 400;
+  line-height: 50.4px;
+  letter-spacing: 0.84px;
+  word-wrap: break-word;
+  position: relative;
+  top: -40px;
+}
+/* container-six*/
+.container-six {
+  width: 100%;
+  height: 200vh;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookings {
+  margin-left: 50px;
+}
+.footer {
+  width: 100%;
+  height: 45vh;
+  background-image: url("../Assests/image/footer.png");
+}
+.footheader-box {
+}
+.Aged-bourbon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.Copyright {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  padding-top: 50px;
+}
+.Design-xide {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  align-items: flex-end;
+  position: relative;
+}
+.xide {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.right-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.footer-interbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-para {
+  color: white;
+  font-size: 11px;
+  font-family: Noto Serif;
+  font-weight: 500;
+  line-height: 15.23px;
+  letter-spacing: 0.22px;
+  word-wrap: break-word;
+}
+.center-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Responsive */
+@media all and (max-width: 640px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assests/image/pexels-charlotte-may-5947008\ 1.png"),
+      url("../Assests/logo/Vector\ 1.png"),
+      url("../Assests/logo/Ellipse\ 3.png");
+    background-repeat: no-repeat;
+  }
+  .header-one {
+    padding-left: 65px;
+    padding-top: 34.93px;
+  }
+  .music-icon {
+    display: flex;
+    padding-left: 40%;
+  }
+  .head-six {
+    color: white;
+    font-size: 13px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  .para-one {
+    color: white;
+    font-size: 12px;
+    font-family: Noto Serif;
+    font-weight: 200;
+    line-height: 10.7px;
+    letter-spacing: 0.4px;
+    word-wrap: break-word;
+  }
+}
